@@ -12,6 +12,9 @@ class YtmApplicationTests {
     void contextLoads() {
         double ytm = YTMUtil.calculateYield(95, 100, 0.03, 3);
         log.info("ytm={}",ytm);
+
+        double ytm1 = YTMUtil.calculateYield(100, 100, 0.03, 3);
+        log.info("ytm={}",ytm1);
     }
 
 }
